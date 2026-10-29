@@ -1,0 +1,314 @@
+<session version="1.1" release="Q-2020.03-SP2-8" timestp="2026-10-28 15:04:15 GMT">
+  <info>
+    <attr name="datetime" value="Wed Oct 28 20:34:26 2026
+"/>
+    <attr name="command" value="urg -dir simv.vdb -report urgReport -format both"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="packet_pkg::device_id_reg::revision_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::device_id_reg::vendor_id_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::device_id_reg::product_id_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::packet_subscriber::cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::version_reg::major_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::version_reg::minor_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::version_reg::patch_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::gen_fsm_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::err_pending_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::gen_running_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::port_enabled_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::locked_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::switch_enabled_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::busy_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_status_reg::ready_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_status_reg::port3_level_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_status_reg::port2_level_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_status_reg::port1_level_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_status_reg::port0_level_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_status_reg::remaining_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_status_reg::fsm_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_status_reg::done_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_status_reg::running_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::stat_rx_reg::rx_packets_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::stat_tx_reg::tx_packets_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::stat_drop_reg::dropped_packets_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_count_reg::error_count_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_info_reg::tx_snapshot_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_info_reg::dest_port_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_info_reg::source_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_info_reg::last_code_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_ctrl_reg::irq_global_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_ctrl_reg::stat_clear_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::switch_ctrl_reg::enable_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_ctrl_reg::continuous_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_ctrl_reg::stop_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_ctrl_reg::start_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_ctrl_reg::enable_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::clear_count_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::injected_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::length_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::crc_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::protocol_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::undersize_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::overflow_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::dest_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_inject_reg::bus_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::soft_reset_reg::pulse_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::lock_reg::key_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::lock_reg::locked_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_enable_reg::port3_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_enable_reg::port2_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_enable_reg::port1_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::port_enable_reg::port0_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::fwd_enable_reg::fwd3_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::fwd_enable_reg::fwd2_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::fwd_enable_reg::fwd1_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::fwd_enable_reg::fwd0_en_cov">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_pkt_cfg_reg::seed_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_pkt_cfg_reg::length_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_pkt_cfg_reg::src_port_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_pkt_cfg_reg::dst_port_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_interval_reg::interval_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::gen_count_reg::packet_count_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::sw_event_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::start_ack_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::queue_almost_full_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::packet_forwarded_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::packet_dropped_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::queue_overflow_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::error_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_status_reg::gen_done_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::sw_event_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::start_ack_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::queue_af_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::packet_fwd_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::packet_drop_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::overflow_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::error_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_enable_reg::gen_done_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::irq_force_reg::force_bits_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::injected_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::length_error_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::crc_error_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::protocol_error_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::undersize_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::queue_overflow_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::dest_error_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_status_reg::bus_error_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::injected_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::length_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::crc_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::protocol_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::undersize_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::overflow_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::dest_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+    <scope type="group" name="packet_pkg::err_enable_reg::bus_en_cg">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

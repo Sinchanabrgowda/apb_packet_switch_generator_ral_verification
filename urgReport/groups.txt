@@ -1,0 +1,108 @@
+Testbench Group List
+
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+100.00 100.00     1      
+
+
+Total groups in report: 97
+-------------------------------------------------------------------------------
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                              
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::device_id_reg::revision_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::device_id_reg::vendor_id_cov          
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::device_id_reg::product_id_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::packet_subscriber::cg                 
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::version_reg::major_cov                
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::version_reg::minor_cov                
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::version_reg::patch_cov                
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::gen_fsm_cov        
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::err_pending_cov    
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::gen_running_cov    
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::port_enabled_cov   
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::locked_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::switch_enabled_cov 
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::busy_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_status_reg::ready_cov          
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_status_reg::port3_level_cov      
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_status_reg::port2_level_cov      
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_status_reg::port1_level_cov      
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_status_reg::port0_level_cov      
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_status_reg::remaining_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_status_reg::fsm_cov               
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_status_reg::done_cov              
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_status_reg::running_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::stat_rx_reg::rx_packets_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::stat_tx_reg::tx_packets_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::stat_drop_reg::dropped_packets_cov    
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_count_reg::error_count_cg         
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_info_reg::tx_snapshot_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_info_reg::dest_port_cg            
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_info_reg::source_cg               
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_info_reg::last_code_cg            
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_ctrl_reg::irq_global_en_cov    
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_ctrl_reg::stat_clear_cov       
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::switch_ctrl_reg::enable_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_ctrl_reg::continuous_cov          
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_ctrl_reg::stop_cov                
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_ctrl_reg::start_cov               
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::gen_ctrl_reg::enable_cov              
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::clear_count_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::injected_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::length_cg             
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::crc_cg                
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::protocol_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::undersize_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::overflow_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::dest_cg               
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_inject_reg::bus_cg                
+100.00 --        1      100    1        0            64           64                    packet_pkg::soft_reset_reg::pulse_cg              
+100.00 --        1      100    1        0            64           64                    packet_pkg::lock_reg::key_cg                      
+100.00 --        1      100    1        0            64           64                    packet_pkg::lock_reg::locked_cg                   
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_enable_reg::port3_en_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_enable_reg::port2_en_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_enable_reg::port1_en_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::port_enable_reg::port0_en_cov         
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::fwd_enable_reg::fwd3_en_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::fwd_enable_reg::fwd2_en_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::fwd_enable_reg::fwd1_en_cov           
+100.00 100.00    1      100    1        1            64           64                    packet_pkg::fwd_enable_reg::fwd0_en_cov           
+100.00 --        1      100    1        0            64           64                    packet_pkg::gen_pkt_cfg_reg::seed_cg              
+100.00 --        1      100    1        0            64           64                    packet_pkg::gen_pkt_cfg_reg::length_cg            
+100.00 --        1      100    1        0            64           64                    packet_pkg::gen_pkt_cfg_reg::src_port_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::gen_pkt_cfg_reg::dst_port_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::gen_interval_reg::interval_cg         
+100.00 --        1      100    1        0            64           64                    packet_pkg::gen_count_reg::packet_count_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::sw_event_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::start_ack_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::queue_almost_full_cg  
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::packet_forwarded_cg   
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::packet_dropped_cg     
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::queue_overflow_cg     
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::error_cg              
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_status_reg::gen_done_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::sw_event_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::start_ack_en_cg       
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::queue_af_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::packet_fwd_en_cg      
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::packet_drop_en_cg     
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::overflow_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::error_en_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_enable_reg::gen_done_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::irq_force_reg::force_bits_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::injected_cg           
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::length_error_cg       
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::crc_error_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::protocol_error_cg     
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::undersize_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::queue_overflow_cg     
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::dest_error_cg         
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_status_reg::bus_error_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::injected_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::length_en_cg          
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::crc_en_cg             
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::protocol_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::undersize_en_cg       
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::overflow_en_cg        
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::dest_en_cg            
+100.00 --        1      100    1        0            64           64                    packet_pkg::err_enable_reg::bus_en_cg             
+
